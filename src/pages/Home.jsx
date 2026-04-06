@@ -1,11 +1,16 @@
-import React from 'react';
+
+import BooksSection from "@/Components/books/BooksSection";
+import Hero from "@/Components/Hero/Hero";
+import React from "react";
+
 
 const Home = () => {
-    return (
-        <div>
-            <h1>this is home page</h1>
-        </div>
-    );
+  return (
+    <>
+     <Hero />
+     <BooksSection />
+    </>
+  );
 };
 
 export default Home;
